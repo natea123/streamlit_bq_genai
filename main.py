@@ -3,7 +3,7 @@ import streamlit as st
 import google.auth
 
 credentials, project_id = google.auth.default()
-PROJECT_ID = "nandrews-demos-365318"
+PROJECT_ID = ""
 MODEL = "text-bison@001"
 REGION = 'us-central1'
 EXPERIMENT = 'bq-citibikes'
